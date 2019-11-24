@@ -1,0 +1,30 @@
+body{
+background-image: url(Background.jpg);
+
+}
+p { 
+font Times New Roman;
+font size:11 pt;
+align= right;
+}
+a{align= right}
+
+
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 20px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+.photo:hover {
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+.photo1 {
+	background-image: url(Background.jpg);
+}
+   
